@@ -81,7 +81,11 @@ const About = () => {
                 Project I'm currently working on?
               </Typography>
               <Typography variant="body1" gutterBottom>
-                Autonomous Driving via Open Dataset
+                Autonomous Driving via Open Dataset.
+                <i>
+                  (I love exploring new things apart from application
+                  development!)
+                </i>
               </Typography>
               <Typography
                 variant="body1"

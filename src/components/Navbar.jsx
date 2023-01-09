@@ -25,7 +25,7 @@ const pages = [
   { name: "Projects", id: "projects" },
   {
     name: "Resume",
-    href: "https://drive.google.com/file/d/1L9vxGXGO28qp0RDDAb8WPfBEEbG73tVk/view",
+    href: "https://drive.google.com/file/d/16BG1Bow-LAkpDk_Vn7fckg6lfzW2ekQm/view",
     target: "_blank",
     rel: "noreferrer",
     id: "resume",
