@@ -1,34 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.72ac9ea3.css",
-    "main.js": "/static/js/main.59de513d.js",
+    "main.js": "/static/js/main.cfbd799c.js",
     "static/media/studentSquare.png": "/static/media/studentSquare.e87f1f93ae77c34b0925.png",
     "static/media/portfolio.png": "/static/media/portfolio.4a808acf142d10c18b32.png",
     "static/media/marketplace.png": "/static/media/marketplace.9ae0b00e9fe139be2d74.png",
-    "static/media/logo-iscab.png": "/static/media/logo-iscab.c64e39d7f8912e592729.png",
     "static/media/profileCropped.jpg": "/static/media/profileCropped.706cfb7aeceb2c6264b7.jpg",
     "static/media/tweet1.png": "/static/media/tweet1.571df3baf6ef280f8d52.png",
-    "static/media/me.png": "/static/media/me.0980670231c4443727cb.png",
     "static/media/umlParser.jpg": "/static/media/umlParser.b1018e03d7fbeec8864b.jpg",
     "static/media/Cognizant.png": "/static/media/Cognizant.832c0ecaa39e4b02fcfa.png",
+    "static/media/tweetApp.png": "/static/media/tweetApp.65540f6d2fd2bff33a60.png",
     "static/media/starbucks.jpg": "/static/media/starbucks.905adfb3d21e4ad52aa5.jpg",
-    "static/media/me.jpg": "/static/media/me.40900e14b301f4ac74a9.jpg",
-    "static/media/customer014.png": "/static/media/customer014.ccbbea30634798871b13.png",
-    "static/media/customer007.png": "/static/media/customer007.994d74ea192883dd1c5b.png",
-    "static/media/customer015.png": "/static/media/customer015.a9d8eca7f2c61e357d03.png",
-    "static/media/customer012.jpg": "/static/media/customer012.5e982ef1b1bbf86c77b6.jpg",
     "static/media/github-white.png": "/static/media/github-white.987334e9f782cc505f25.png",
-    "static/media/customer006.png": "/static/media/customer006.2bc71ad7b9891c4b8deb.png",
     "static/media/gmail.png": "/static/media/gmail.d765005ce9d4caa3d69e.png",
-    "static/media/customer010.jpg": "/static/media/customer010.55cca2c82f7c6361ea26.jpg",
     "static/media/linkedIn2.png": "/static/media/linkedIn2.29f7bd95d15124b39308.png",
-    "static/media/customer006.svg": "/static/media/customer006.ea6a8616f4463d4f6868.svg",
     "index.html": "/index.html",
     "main.72ac9ea3.css.map": "/static/css/main.72ac9ea3.css.map",
-    "main.59de513d.js.map": "/static/js/main.59de513d.js.map"
+    "main.cfbd799c.js.map": "/static/js/main.cfbd799c.js.map"
   },
   "entrypoints": [
     "static/css/main.72ac9ea3.css",
-    "static/js/main.59de513d.js"
+    "static/js/main.cfbd799c.js"
   ]
 }
