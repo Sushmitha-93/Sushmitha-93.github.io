@@ -1,0 +1,105 @@
+[
+  {
+    "name": "Watch The Road",
+    "subtitle": "Distracted Driver Detection",
+    "description": "A mobile app mock-up in Java to add cards, activate, scan, and pay using design patterns – Observer, Strategy, State, Composite, Decorator, Proxy, Singleton. Implemented backend APIs in Go Lang and a Cash register app in Node.js.",
+    "techIcons": [
+      "devicon-python-plain-wordmark colored",
+      "devicon-tensorflow-original-wordmark colored",
+      "devicon-react-original colored",
+      "devicon-fastapi-plain-wordmark colored",
+      "devicon-docker-plain-wordmark colored"
+    ],
+    "picture": "starbucks.jpg",
+
+    "front": {
+      "style": {
+        "background": "#fff",
+        "color": "black"
+      }
+    },
+    "back": {
+      "style": {
+        "background": "#00613A",
+        "color": "#fff"
+      }
+    }
+  },
+  {
+    "name": "Future Sales Forecast",
+    "subtitle": "Time Series Prediction Problem",
+    "description": "A e-commerce market place that combines the products from four different online markets",
+    "picture": "marketplace.png",
+    "githubLink": "https://github.com/Sushmitha-93/272_MarketPlace",
+    "deployedLink": "https://sushmitha-93.github.io/272_MarketPlace/",
+    "techIcons": [
+      "devicon-python-plain-wordmark colored",
+      "devicon-tensorflow-original-wordmark colored",
+      "devicon-pandas-original-wordmark colored",
+      "devicon-numpy-original-wordmark colored"
+    ],
+    "front": {
+      "style": {
+        "background": "#fff",
+        "color": "black"
+      }
+    },
+    "back": {
+      "style": {
+        "background": "#0D1655",
+        "color": "#fff"
+      }
+    }
+  },
+  {
+    "name": "Tweet Sentiment Analysis",
+    "subtitle": "NLP Classification Problem",
+    "description": "Web agency",
+    "picture": "tweet1.png",
+    "techIcons": [
+      "devicon-python-plain-wordmark colored",
+      "devicon-pandas-original-wordmark colored",
+      "devicon-numpy-original-wordmark colored",
+      "devicon-javascript-plain colored",
+      "devicon-html5-plain-wordmark colored"
+    ],
+    "style": {
+      "background": "#fff",
+      "color": "black"
+    }
+  },
+  {
+    "name": "Movie Recommender",
+    "subtitle": "NLP Classification Problem",
+    "description": "Web agency",
+    "picture": "tweet1.png",
+    "techIcons": [
+      "devicon-python-plain-wordmark colored",
+      "devicon-pandas-original-wordmark colored",
+      "devicon-numpy-original-wordmark colored",
+      "devicon-javascript-plain colored",
+      "devicon-html5-plain-wordmark colored"
+    ],
+    "style": {
+      "background": "#fff",
+      "color": "black"
+    }
+  },
+  {
+    "name": "COVID19 Analysis and Dashboard",
+    "subtitle": "NLP Classification Problem",
+    "description": "Web agency",
+    "picture": "tweet1.png",
+    "techIcons": [
+      "devicon-python-plain-wordmark colored",
+      "devicon-pandas-original-wordmark colored",
+      "devicon-numpy-original-wordmark colored",
+      "devicon-javascript-plain colored",
+      "devicon-html5-plain-wordmark colored"
+    ],
+    "style": {
+      "background": "#fff",
+      "color": "black"
+    }
+  }
+]

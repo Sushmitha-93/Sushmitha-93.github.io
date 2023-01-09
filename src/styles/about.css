@@ -1,0 +1,9 @@
+[class^="devicon-"],
+[class*=" devicon-"] {
+  font-size: 78px;
+}
+
+.cardHeading {
+  color: #000;
+  padding-top: 10px;
+}

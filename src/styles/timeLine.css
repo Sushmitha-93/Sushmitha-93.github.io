@@ -1,0 +1,13 @@
+.timeLineDate {
+  color: #333;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: "18px";
+}
+
+.vertical-timeline-element--education .vertical-timeline-element-content {
+  border: 5px solid brown;
+}
+
+.vertical-timeline-element--work .vertical-timeline-element-content {
+  border-top: 3px solid #2196f3;
+}
