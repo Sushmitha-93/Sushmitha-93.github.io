@@ -1,74 +1,7 @@
 [
   {
-    "name": "Starbucks",
-    "subtitle": "Coffee ordering app",
-    "description": "A mobile app mock-up in Java to add cards, activate, scan, and pay using design patterns – Observer, Strategy, State, Composite, Decorator, Proxy, Singleton. Implemented backend APIs in Go Lang and a Cash register app in Node.js.",
-    "techIcons": [
-      "devicon-java-plain-wordmark colored",
-      "devicon-gradle-plain-wordmark colored",
-      "devicon-go-original-wordmark colored",
-      "devicon-javascript-plain colored"
-    ],
-    "picture": "starbucks.jpg",
-
-    "front": {
-      "style": {
-        "background": "#fff",
-        "color": "black"
-      }
-    },
-    "back": {
-      "style": {
-        "background": "#00613A",
-        "color": "#fff"
-      }
-    }
-  },
-  {
-    "name": "Marketplace",
-    "subtitle": "e-Commerce website",
-    "description": "A full stack e-commerce market place that combines the products from four different online markets",
-    "picture": "marketplace.png",
-    "githubLink": "https://github.com/Sushmitha-93/272_MarketPlace",
-    "deployedLink": "https://sushmitha-93.github.io/272_MarketPlace/",
-    "techIcons": [
-      "devicon-react-original colored",
-      "devicon-php-plain colored",
-      "devicon-mysql-plain-wordmark colored"
-    ],
-    "front": {
-      "style": {
-        "background": "#fff",
-        "color": "black"
-      }
-    },
-    "back": {
-      "style": {
-        "background": "#0D1655",
-        "color": "#fff"
-      }
-    }
-  },
-  {
-    "name": "Student Square",
-    "subtitle": "Distributed student discussion forum",
-    "description": "Web agency",
-    "picture": "studentSquare.png",
-    "techIcons": [
-      "devicon-react-original colored",
-      "devicon-nodejs-plain-wordmark colored",
-      "devicon-mongodb-plain-wordmark colored",
-      "devicon-express-original-wordmark colored",
-      "devicon-docker-plain-wordmark colored"
-    ],
-    "style": {
-      "background": "#fff",
-      "color": "black"
-    }
-  },
-  {
     "name": "Pokemon Go",
-    "subtitle": "Java Game using design patterns",
+    "subtitle": "Java Game built using design patterns",
     "description": "It is a game based on Pokemon where the player can move around in the Pokemon world and fight with wild Pokemons or pokemons with other trainers. We have implemented the game using Java on Greenfoot platform using standard design patterns. ",
     "picture": "pokemongo.png",
     "techIcons": ["devicon-java-plain-wordmark colored"],
@@ -87,22 +20,108 @@
   },
   {
     "name": "Java UML Parser",
-    "subtitle": "Parse Java code & generate UML diagrams",
-    "description": "Design and communication agency",
+    "subtitle": "Generate UML diagram for Java projects",
+    "description": "A Java application that generates UML class diagram for provided Java source code path. The parser program reads all of the Java code in provided path of Java project and outputs its class diagram image generated using a drawing API, while adhering to standard UML notations.",
     "picture": "umlParser.jpg",
     "githubLink": "https://github.com/Sushmitha-93/Java-UML-Parser",
     "techIcons": [
       "devicon-java-plain-wordmark colored",
       "devicon-javascript-plain colored"
     ],
-    "style": {
-      "background": "#fff"
+    "front": {
+      "style": {
+        "background": "#fff",
+        "color": "black"
+      }
+    },
+    "back": {
+      "style": {
+        "background": "#E5E5E5",
+        "color": "black"
+      }
     }
   },
   {
+    "name": "Starbucks",
+    "subtitle": "Coffee ordering app built using Design patterns",
+    "description": "A mobile app mock-up in Java to add cards, activate, scan, and pay using design patterns – Observer, Strategy, State, Composite, Decorator, Proxy, Singleton. Implemented backend APIs in Go Lang and a Cash register app in Node.js.",
+    "techIcons": [
+      "devicon-java-plain-wordmark colored",
+      "devicon-gradle-plain-wordmark colored",
+      "devicon-go-original-wordmark colored",
+      "devicon-javascript-plain colored"
+    ],
+    "picture": "starbucks.jpg",
+
+    "front": {
+      "style": {
+        "background": "#fff",
+        "color": "black"
+      }
+    },
+    "back": {
+      "style": {
+        "background": "#6E919C",
+        "color": "white"
+      }
+    }
+  },
+  {
+    "name": "Marketplace",
+    "subtitle": "A full-stack e-Commerce website",
+    "description": "A full stack e-commerce market place that combines the products from four different online markets",
+    "picture": "marketplace.png",
+    "githubLink": "https://github.com/Sushmitha-93/272_MarketPlace",
+    "deployedLink": "https://sushmitha-93.github.io/272_MarketPlace/",
+    "techIcons": [
+      "devicon-react-original colored",
+      "devicon-php-plain colored",
+      "devicon-mysql-plain-wordmark colored"
+    ],
+    "front": {
+      "style": {
+        "background": "#fff",
+        "color": "black"
+      }
+    },
+    "back": {
+      "style": {
+        "background": "#E5E5E5",
+        "color": "black"
+      }
+    }
+  },
+  {
+    "name": "Student Square",
+    "subtitle": "Distributed student discussion forum",
+    "description": "A Full-Stack student discussion forum where students can sign-up, set up profile, and network by starting discussions, posting questions, comments, vote... App was deployed with distributed architecutre on Google Kubernetes Engine. Improved performance with Load balancer and Redis cache manager.",
+    "picture": "studentSquare.png",
+    "techIcons": [
+      "devicon-react-original colored",
+      "devicon-nodejs-plain-wordmark colored",
+      "devicon-mongodb-plain-wordmark colored",
+      "devicon-express-original-wordmark colored",
+      "devicon-googlecloud-plain-wordmark colored"
+    ],
+    "front": {
+      "style": {
+        "background": "#fff",
+        "color": "black"
+      }
+    },
+    "back": {
+      "style": {
+        "background": "#c4f3ff",
+        "color": "black"
+      }
+    }
+  },
+
+  {
     "name": "Personal Website",
     "subtitle": "A creative portfolio website",
-    "description": "Design and communication agency",
+    "description": "Designed and built a creative personal portfolio website from scratch using react.js and Material UI.",
+    "githubLink": "https://github.com/Sushmitha-93/Sushmitha-93.github.io",
     "picture": "portfolio.png",
     "techIcons": [
       "devicon-react-original colored",
@@ -110,8 +129,17 @@
       "devicon-css3-plain-wordmark colored",
       "devicon-javascript-plain colored"
     ],
-    "style": {
-      "background": "#fff"
+    "front": {
+      "style": {
+        "background": "#fff",
+        "color": "black"
+      }
+    },
+    "back": {
+      "style": {
+        "background": "#ffbd8c",
+        "color": "black"
+      }
     }
   }
 ]

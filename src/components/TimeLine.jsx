@@ -53,11 +53,22 @@ const TimeLine = () => {
             <Typography variant="h6" sx={{ height: "28px" }}>
               Master of Science in Software Engineering
             </Typography>
-            <Typography variant="subtitle2" gutterBottom="true">
-              Master Degree
-            </Typography>
-            <Typography variant="subtitle1">
+
+            <Typography variant="subtitle2">
               San Jose State University, San Jose, CA
+            </Typography>
+
+            <Typography variant="subtitle2" gutterBottom="true">
+              GPA: 3.68 / 4
+            </Typography>
+            <Typography variant="subtitle1" gutterBottom="true">
+              Course Work:
+              <i>
+                {" "}
+                Enterprise Application Development, Machine Learning, Data
+                Mining, Software Systems Design, Enterprise Distributed Systems,
+                Enterprise Software Platforms.
+              </i>
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement

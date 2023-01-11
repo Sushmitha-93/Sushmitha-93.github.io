@@ -30,7 +30,7 @@ const pages = [
     rel: "noreferrer",
     id: "resume",
   },
-  { name: "Contact" },
+  { name: "Contact", id: "contact" },
 ];
 
 function Navbar() {

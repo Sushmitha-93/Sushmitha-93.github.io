@@ -33,7 +33,12 @@ const Projects = () => {
           variant="h6"
           gutterBottom
           textAlign="center"
-          sx={{ color: "#ff4081", marginBottom: "20px" }}
+          sx={{
+            color: "#ff4081",
+            marginBottom: "20px",
+            backgroundColor: "rgba(0, 0, 0, 0.87)",
+            padding: "12px",
+          }}
         >
           Application Development Projects
         </Typography>
@@ -43,7 +48,11 @@ const Projects = () => {
           variant="h5"
           gutterBottom
           textAlign="center"
-          sx={{ color: "#ff4081" }}
+          sx={{
+            color: "#ff4081",
+            backgroundColor: "rgba(0, 0, 0, 0.87)",
+            padding: "12px",
+          }}
         >
           Machine Learning Projects
         </Typography>

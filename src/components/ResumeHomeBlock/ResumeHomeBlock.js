@@ -27,7 +27,9 @@ export const ResumeHomeBlock = ({ style, shortFullName, headline }) => (
               .
             </Box>
           </Typography>
-          <Typography variant="h2">A Full-stack web engineer </Typography>
+          <Typography variant="h2">
+            A Full-stack web engineer | ML Enthusiast
+          </Typography>
         </div>
       </div>
 

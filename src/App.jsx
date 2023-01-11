@@ -7,6 +7,7 @@ import TimeLine from "./components/TimeLine";
 import appTheme from "./theme.js";
 import ResumeHomeBlock from "./components/ResumeHomeBlock/ResumeHomeBlock";
 import Projects from "./components/Projects";
+import Contact from "./components/contact";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       </Container>
       <TimeLine />
       <Projects />
+      <Contact />
     </React.Fragment>
   );
 };

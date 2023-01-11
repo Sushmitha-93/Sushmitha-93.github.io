@@ -2,7 +2,7 @@
   {
     "name": "Watch The Road",
     "subtitle": "Distracted Driver Detection",
-    "description": "Trained machine learning models to detect if a driver is distracted or not using CNN based algorithms like Resnet and Mobilenet. The final model is then used to detect distracted drivers real time using camera or video clip.",
+    "description": "Trained machine learning models to detect if a driver is distracted or not using CNN based algorithms like Resnet and Mobilenet. The final model is deployed to detect distracted drivers in real time using camera or video clip.",
     "techIcons": [
       "devicon-python-plain-wordmark colored",
       "devicon-tensorflow-original-wordmark colored",
@@ -19,7 +19,7 @@
     },
     "back": {
       "style": {
-        "background": "white",
+        "background": "#d6e2ff",
         "color": "black"
       }
     }
@@ -45,7 +45,7 @@
     },
     "back": {
       "style": {
-        "background": "white",
+        "background": "#ffeec9",
         "color": "black"
       }
     }
@@ -65,9 +65,17 @@
       "devicon-javascript-plain colored",
       "devicon-html5-plain-wordmark colored"
     ],
-    "style": {
-      "background": "#fff",
-      "color": "black"
+    "front": {
+      "style": {
+        "background": "#fff",
+        "color": "black"
+      }
+    },
+    "back": {
+      "style": {
+        "background": "#c0eaf7",
+        "color": "black"
+      }
     }
   }
 ]
