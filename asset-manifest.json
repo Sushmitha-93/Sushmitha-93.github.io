@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.72ac9ea3.css",
-    "main.js": "/static/js/main.77f00be7.js",
+    "main.js": "/static/js/main.c37ce1b3.js",
     "static/media/studentSquare.png": "/static/media/studentSquare.e87f1f93ae77c34b0925.png",
+    "static/media/pokemongo.png": "/static/media/pokemongo.d605007dfba11b4b1a80.png",
     "static/media/portfolio.png": "/static/media/portfolio.4a808acf142d10c18b32.png",
+    "static/media/distractedDrivers.png": "/static/media/distractedDrivers.f356ba1fc1f5dcd0b6c0.png",
     "static/media/marketplace.png": "/static/media/marketplace.9ae0b00e9fe139be2d74.png",
     "static/media/profileCropped.jpg": "/static/media/profileCropped.706cfb7aeceb2c6264b7.jpg",
     "static/media/tweet1.png": "/static/media/tweet1.571df3baf6ef280f8d52.png",
@@ -11,15 +13,17 @@
     "static/media/Cognizant.png": "/static/media/Cognizant.832c0ecaa39e4b02fcfa.png",
     "static/media/tweetApp.png": "/static/media/tweetApp.65540f6d2fd2bff33a60.png",
     "static/media/starbucks.jpg": "/static/media/starbucks.905adfb3d21e4ad52aa5.jpg",
+    "static/media/salesForecast.png": "/static/media/salesForecast.c6aca2611bfa7d0a5c0a.png",
+    "static/media/tweetSentimentAnalysis.webp": "/static/media/tweetSentimentAnalysis.caf1ecdfb0c8b21343e0.webp",
     "static/media/github-white.png": "/static/media/github-white.987334e9f782cc505f25.png",
     "static/media/gmail.png": "/static/media/gmail.d765005ce9d4caa3d69e.png",
     "static/media/linkedIn2.png": "/static/media/linkedIn2.29f7bd95d15124b39308.png",
     "index.html": "/index.html",
     "main.72ac9ea3.css.map": "/static/css/main.72ac9ea3.css.map",
-    "main.77f00be7.js.map": "/static/js/main.77f00be7.js.map"
+    "main.c37ce1b3.js.map": "/static/js/main.c37ce1b3.js.map"
   },
   "entrypoints": [
     "static/css/main.72ac9ea3.css",
-    "static/js/main.77f00be7.js"
+    "static/js/main.c37ce1b3.js"
   ]
 }
