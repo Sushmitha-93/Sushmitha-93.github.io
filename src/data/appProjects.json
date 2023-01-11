@@ -69,8 +69,8 @@
   {
     "name": "Pokemon Go",
     "subtitle": "Java Game using design patterns",
-    "description": "Travel agency",
-    "picture": "starbucks.jpg",
+    "description": "It is a game based on Pokemon where the player can move around in the Pokemon world and fight with wild Pokemons or pokemons with other trainers. We have implemented the game using Java on Greenfoot platform using standard design patterns. ",
+    "picture": "pokemongo.png",
     "techIcons": ["devicon-java-plain-wordmark colored"],
     "front": {
       "style": {
@@ -80,7 +80,7 @@
     },
     "back": {
       "style": {
-        "background": "#E34879",
+        "background": "#3FD284",
         "color": "#fff"
       }
     }

@@ -6,6 +6,8 @@ import CardContent from "@mui/material/CardContent";
 import CardActions from "@mui/material/CardActions";
 import Button from "@mui/material-next/Button";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import DescriptionIcon from "@mui/icons-material/Description";
+import { SiGooglecolab } from "react-icons/si";
 
 import "./ProjectCards.css";
 import { CardHeader, Typography } from "@mui/material";
@@ -90,6 +92,21 @@ const ProjectCards = ({ projects }) => (
                     >
                       GitHub
                     </Button>
+                    {projects.colabLink && (
+                      <Button
+                        startIcon={<SiGooglecolab />}
+                        color="secondary"
+                        disabled={false}
+                        size="small"
+                        variant="filled"
+                        href={projects.deployedLink}
+                        target="_blank"
+                        rel="noreferrer"
+                        sx={{ marginBottom: "10px" }}
+                      >
+                        Colab Notebook
+                      </Button>
+                    )}
                     {projects.deployedLink && (
                       <Button
                         color="secondary"
@@ -101,6 +118,20 @@ const ProjectCards = ({ projects }) => (
                         rel="noreferrer"
                       >
                         View Live
+                      </Button>
+                    )}
+                    {projects.reportLink && (
+                      <Button
+                        startIcon={<DescriptionIcon />}
+                        color="secondary"
+                        disabled={false}
+                        size="small"
+                        variant="filled"
+                        href={projects.deployedLink}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        View Report
                       </Button>
                     )}
                   </CardActions>

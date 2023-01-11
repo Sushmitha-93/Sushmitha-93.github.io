@@ -2,15 +2,14 @@
   {
     "name": "Watch The Road",
     "subtitle": "Distracted Driver Detection",
-    "description": "A mobile app mock-up in Java to add cards, activate, scan, and pay using design patterns – Observer, Strategy, State, Composite, Decorator, Proxy, Singleton. Implemented backend APIs in Go Lang and a Cash register app in Node.js.",
+    "description": "Trained machine learning models to detect if a driver is distracted or not using CNN based algorithms like Resnet and Mobilenet. The final model is then used to detect distracted drivers real time using camera or video clip.",
     "techIcons": [
       "devicon-python-plain-wordmark colored",
       "devicon-tensorflow-original-wordmark colored",
       "devicon-react-original colored",
-      "devicon-fastapi-plain-wordmark colored",
-      "devicon-docker-plain-wordmark colored"
+      "devicon-fastapi-plain-wordmark colored"
     ],
-    "picture": "starbucks.jpg",
+    "picture": "distractedDrivers.png",
 
     "front": {
       "style": {
@@ -20,18 +19,18 @@
     },
     "back": {
       "style": {
-        "background": "#00613A",
-        "color": "#fff"
+        "background": "white",
+        "color": "black"
       }
     }
   },
   {
-    "name": "Future Sales Forecast",
-    "subtitle": "Time Series Prediction Problem",
-    "description": "A e-commerce market place that combines the products from four different online markets",
-    "picture": "marketplace.png",
-    "githubLink": "https://github.com/Sushmitha-93/272_MarketPlace",
-    "deployedLink": "https://sushmitha-93.github.io/272_MarketPlace/",
+    "name": "Predict Future Sales",
+    "subtitle": "Forecasting sales using historic time-series data",
+    "description": "Implemented 3 different Machine Learning models using LightGBM, LSTM and Prophet algorithms to predict total sales for various products sold by 60 shops using 3 years of thier historical time-series data, following an extensive data exploration and pre-processing. ",
+    "picture": "salesForecast.png",
+    "githubLink": "https://github.com/Sushmitha-93/Predict-Future-Sales",
+    "reportLink": "https://docs.google.com/document/d/1JJp8aekJ470IJNwLytv9RFhP0BZMUtIeDTuWqgZEP3c",
     "techIcons": [
       "devicon-python-plain-wordmark colored",
       "devicon-tensorflow-original-wordmark colored",
@@ -46,50 +45,19 @@
     },
     "back": {
       "style": {
-        "background": "#0D1655",
-        "color": "#fff"
+        "background": "white",
+        "color": "black"
       }
     }
   },
   {
     "name": "Tweet Sentiment Analysis",
     "subtitle": "NLP Classification Problem",
-    "description": "Web agency",
-    "picture": "tweet1.png",
-    "techIcons": [
-      "devicon-python-plain-wordmark colored",
-      "devicon-pandas-original-wordmark colored",
-      "devicon-numpy-original-wordmark colored",
-      "devicon-javascript-plain colored",
-      "devicon-html5-plain-wordmark colored"
-    ],
-    "style": {
-      "background": "#fff",
-      "color": "black"
-    }
-  },
-  {
-    "name": "Movie Recommender",
-    "subtitle": "NLP Classification Problem",
-    "description": "Web agency",
-    "picture": "tweet1.png",
-    "techIcons": [
-      "devicon-python-plain-wordmark colored",
-      "devicon-pandas-original-wordmark colored",
-      "devicon-numpy-original-wordmark colored",
-      "devicon-javascript-plain colored",
-      "devicon-html5-plain-wordmark colored"
-    ],
-    "style": {
-      "background": "#fff",
-      "color": "black"
-    }
-  },
-  {
-    "name": "COVID19 Analysis and Dashboard",
-    "subtitle": "NLP Classification Problem",
-    "description": "Web agency",
-    "picture": "tweet1.png",
+    "description": "Scrape latest tweets from Twitter based on given topic or keyword and determine the sentiment expressed by the tweet as Positive, Negative or Netural.",
+    "githubLink": "https://github.com/Sushmitha-93/Tweet-Sentiment-Analysis-StreamLit",
+    "deployedLink": "https://share.streamlit.io/sushmitha-93/tweet-sentiment-analysis-streamlit/main/TweetSentimentAnalysis_Streamlit.py",
+
+    "picture": "tweetSentimentAnalysis.webp",
     "techIcons": [
       "devicon-python-plain-wordmark colored",
       "devicon-pandas-original-wordmark colored",

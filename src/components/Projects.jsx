@@ -19,7 +19,7 @@ const Projects = () => {
             textTransform: "none",
           }}
         >
-          My Recent Work
+          My Projects
         </Typography>
         <Typography
           variant="body2"
