@@ -1,9 +1,16 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
 import { Box, Container } from "@mui/system";
-import EmailIcon from "@mui/icons-material/Email";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import { Grid, IconButton, Tooltip } from "@mui/material";
+import Button from "@mui/material-next/Button";
+
+import EmailIcon from "@mui/icons-material/Email";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import ContactPageIcon from "@mui/icons-material/ContactPage";
+
+import "./Contact.css";
 
 const Contact = () => {
   return (
@@ -35,45 +42,49 @@ const Contact = () => {
           <Typography
             variant="h2"
             textAlign="center"
+            gutterBottom
             sx={{
               color: "#ff4081",
               fontSize: "25px",
               textTransform: "none",
               paddingTop: "35px",
+              marginBottom: "10px",
             }}
           >
             Get in Touch!
           </Typography>
-          <Grid container spacing={1} maxWidth="sm">
-            <Grid item xs={2}>
+        </Container>
+        <Container maxWidth="md">
+          <Grid container justifyContent="center">
+            <Grid item xs={1}>
               <EmailIcon
                 sx={{
-                  color: "#ff4081",
-                  fontSize: "36px",
-                  marginLeft: "55px",
+                  color: "#F14336",
+                  fontSize: "55px",
+                  marginLeft: "7px",
                 }}
               />
             </Grid>
-            <Grid item xs={8}>
+            <Grid item xs={6}>
               <Typography
                 variant="h6"
+                textAlign="center"
                 sx={{
                   color: "#283593",
                   fontSize: "23px",
-                  marginLeft: "5px",
+                  marginTop: "8px",
                 }}
               >
                 sushmitha.dhummithrilochana@sjsu.edu
               </Typography>
             </Grid>
-            <Grid item xs={2}>
+            <Grid item xs={1}>
               <Tooltip title="Copy Email">
                 <IconButton
                   sx={{
                     color: "#ff4081",
                     fontSize: "25px",
-                    marginLeft: "70px",
-                    marginTop: "3px",
+                    marginTop: "5px",
                   }}
                 >
                   <ContentCopyIcon
@@ -85,6 +96,52 @@ const Contact = () => {
                   />
                 </IconButton>
               </Tooltip>
+            </Grid>
+          </Grid>
+        </Container>
+        <Container maxWidth="md">
+          <Grid container justifyContent="center">
+            <Grid item xs={1}>
+              <IconButton
+                href="https://www.linkedin.com/in/sushmitha-dt/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <LinkedInIcon
+                  sx={{
+                    color: "#0274B3",
+                    fontSize: "70px",
+                  }}
+                />
+              </IconButton>
+            </Grid>
+            <Grid item xs={1.5}>
+              <IconButton
+                href="https://github.com/Sushmitha-93"
+                target="_blank"
+                rel="noreferrer"
+                sx={{ marginLeft: "15px" }}
+              >
+                <GitHubIcon
+                  sx={{
+                    fontSize: "60px",
+                    padding: "3px",
+                  }}
+                />
+              </IconButton>
+            </Grid>
+            <Grid item xs={2} sx={{ paddingTop: "17px" }}>
+              <Button
+                href="https://drive.google.com/file/d/16BG1Bow-LAkpDk_Vn7fckg6lfzW2ekQm/view"
+                target="_blank"
+                rel="noreferrer"
+                startIcon={<ContactPageIcon />}
+                color="secondary"
+                size="large"
+                variant="filled"
+              >
+                Resume
+              </Button>
             </Grid>
           </Grid>
         </Container>

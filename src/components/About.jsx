@@ -28,17 +28,12 @@ const About = () => {
             color: "#ff4081",
             fontSize: "34px",
             textTransform: "none",
+            paddingBottom: "60px",
           }}
         >
           About Me
         </Typography>
-        <Typography
-          variant="body2"
-          textAlign="center"
-          sx={{ paddingBottom: "60px" }}
-        >
-          A small introduction about myself
-        </Typography>
+
         <Grid container spacing={2}>
           <Grid
             item

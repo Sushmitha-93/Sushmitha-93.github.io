@@ -2,7 +2,7 @@
   {
     "name": "Pokemon Go",
     "subtitle": "Java Game built using design patterns",
-    "description": "It is a game based on Pokemon where the player can move around in the Pokemon world and fight with wild Pokemons or pokemons with other trainers. We have implemented the game using Java on Greenfoot platform using standard design patterns. ",
+    "description": "An interactive game in Java implemented on Greenfoot platform using standard design patterns - Factory, Observer, Composite, Decorator and Command. The player can move around in the Pokemon world and fight with wild Pokemons and duel with other trainers.",
     "picture": "pokemongo.png",
     "techIcons": ["devicon-java-plain-wordmark colored"],
     "front": {

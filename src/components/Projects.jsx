@@ -24,20 +24,20 @@ const Projects = () => {
         <Typography
           variant="body2"
           textAlign="center"
-          sx={{ paddingBottom: "60px" }}
+          sx={{ paddingBottom: "40px" }}
         >
-          Some of the Things I've Build
+          Some of the things I've built. Hover over the projects for details.
         </Typography>
 
         <Typography
-          variant="h6"
+          variant="h5"
           gutterBottom
           textAlign="center"
           sx={{
             color: "#ff4081",
             marginBottom: "20px",
             backgroundColor: "rgba(0, 0, 0, 0.87)",
-            padding: "12px",
+            padding: "14px",
           }}
         >
           Application Development Projects
@@ -51,7 +51,7 @@ const Projects = () => {
           sx={{
             color: "#ff4081",
             backgroundColor: "rgba(0, 0, 0, 0.87)",
-            padding: "12px",
+            padding: "14px",
           }}
         >
           Machine Learning Projects
