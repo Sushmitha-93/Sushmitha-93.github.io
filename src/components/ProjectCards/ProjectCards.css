@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0px 50px 50px 50px;
+  /* padding: 0px 50px 50px 50px; */
 }
 
 .ProjectCards-project-container {
@@ -74,7 +74,7 @@
 
 .lazyload-wrapper {
   margin-right: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-bottom: 20px;
 }
 
