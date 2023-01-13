@@ -45,6 +45,7 @@
     "name": "Starbucks",
     "subtitle": "Coffee ordering app built using Design patterns",
     "description": "A mobile app mock-up in Java to add cards, activate, scan, and pay using design patterns – Observer, Strategy, State, Composite, Decorator, Proxy, Singleton. Implemented backend APIs in Go Lang and a Cash register app in Node.js.",
+    "githubLink": "https://gitfront.io/r/user-5571432/zNeUBPLrCzBk/Starbucks-Java-App/",
     "techIcons": [
       "devicon-java-plain-wordmark colored",
       "devicon-gradle-plain-wordmark colored",
@@ -96,6 +97,7 @@
     "subtitle": "Distributed student discussion forum",
     "description": "A Full-Stack student discussion forum where students can sign-up, set up profile, and network by starting discussions, posting questions, comments, vote... App was deployed with distributed architecutre on Google Kubernetes Engine. Improved performance with Load balancer and Redis cache manager.",
     "picture": "studentSquare.png",
+    "githubLink": "https://gitfront.io/r/user-5571432/1hvVEKpVYSGo/Student-Square/",
     "techIcons": [
       "devicon-react-original colored",
       "devicon-nodejs-plain-wordmark colored",
