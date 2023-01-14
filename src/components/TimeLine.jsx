@@ -73,7 +73,8 @@ const TimeLine = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work "
-            date="August 2016 - Febuary 2017"
+            date="April 2019 - January 2022
+            (2.75 years)"
             dateClassName="timeLineDate"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
@@ -93,7 +94,8 @@ const TimeLine = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work "
-            date="April 2019 - January 2022"
+            date="August 2016 - Febuary 2017
+            (2.3  years)"
             dateClassName="timeLineDate"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
@@ -111,7 +113,8 @@ const TimeLine = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work "
-            date="August 2016 - Febuary 2017"
+            date="August 2016 - Febuary 2017
+            (6 months)"
             dateClassName="timeLineDate"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
