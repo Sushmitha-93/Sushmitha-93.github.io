@@ -85,8 +85,10 @@ const TimeLine = () => {
               Bangalore, India
             </Typography>
             <Typography variant="subtitle1">
-              B2B enterprise web application development and integration for one
-              of the biggest mining company using implementing Industry 4.0.
+              B2B enterprise production planning application development and
+              integration for an Australian based mining company to transform
+              into smart, real-time, well automated manufacturing business
+              stepping into the realm of Industry 4.0.
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -103,8 +105,8 @@ const TimeLine = () => {
               Bangalore, India
             </Typography>
             <Typography variant="subtitle1">
-              B2B enterprise web application development and integration for an
-              agro-food manufacturing company based in USA.
+              B2B production planning application development and integration
+              for a US based agro-food manufacturing company.
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -121,7 +123,8 @@ const TimeLine = () => {
               Bengaluru, India
             </Typography>
             <Typography variant="subtitle1">
-              User Experience, Visual Design
+              Company portfolio and event booking application development for
+              skydiving start-up.
             </Typography>
           </VerticalTimelineElement>
 
