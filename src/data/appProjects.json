@@ -4,6 +4,7 @@
     "subtitle": "Java Game built using design patterns",
     "description": "An interactive game in Java implemented on Greenfoot platform using standard design patterns - Factory, Observer, Composite, Decorator and Command. The player can move around in the Pokemon world and fight with wild Pokemons and duel with other trainers.",
     "picture": "pokemongo.png",
+    "githubLink": "https://github.com/nguyensjsu/fa22-202-best-team",
     "techIcons": ["devicon-java-plain-wordmark colored"],
     "front": {
       "style": {

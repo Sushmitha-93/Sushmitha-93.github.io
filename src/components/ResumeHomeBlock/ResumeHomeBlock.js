@@ -10,50 +10,69 @@ import "./ResumeHomeBlock.css";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 
-export const ResumeHomeBlock = ({ style, shortFullName, headline }) => (
-  <section id="home">
-    <ScreenBlock id="Resume-home" style={style} className="ResumeHomeBlock">
-      <div className="ResumeHomeBlock-headline-container">
-        <div className="ResumeHomeBlock-headline">
-          <Typography
-            variant="h2"
-            sx={{ textAlign: "left", fontStyle: "italic" }}
-          >
-            Hi there! I am
-          </Typography>
-          <Typography variant="h1">
-            Sushmitha Thrilochana
-            <Box component="span" sx={{ color: "#FE481D" }}>
-              .
-            </Box>
-          </Typography>
-          <Typography variant="h2">
-            A Full-stack web engineer | ML Enthusiast
-          </Typography>
-        </div>
-      </div>
+import { HiSpeakerWave } from "react-icons/hi2";
+import { IconButton, Tooltip } from "@mui/material";
+import nameAudio from "../../audio/sushmitha.mp3";
 
-      <div className="ResumeHomeBlock-squares">
-        <GridBackground>
-          <div style={{ ...appTheme.java.style }}>{appTheme["java"].icon}</div>
-          <div style={{ ...appTheme.python.style }}>{appTheme.python.icon}</div>
-          <div style={{ ...appTheme.reactColor.style }}>
-            {appTheme.reactColor.icon}
+export const ResumeHomeBlock = ({ style, shortFullName, headline }) => {
+  function playAudio() {
+    new Audio(nameAudio).play();
+  }
+
+  return (
+    <section id="home">
+      <ScreenBlock id="Resume-home" style={style} className="ResumeHomeBlock">
+        <div className="ResumeHomeBlock-headline-container">
+          <div className="ResumeHomeBlock-headline">
+            <Typography
+              variant="h2"
+              sx={{ textAlign: "left", fontStyle: "italic" }}
+            >
+              Hi there! I am
+            </Typography>
+            <Typography variant="h1">
+              Sushmitha Thrilochana
+              <Box component="span" sx={{ color: "#FE481D" }}>
+                .
+              </Box>
+              <Tooltip title="Soosh-mi-ta">
+                <IconButton className="speakerButton">
+                  <HiSpeakerWave size={50} color={"gray"} onClick={playAudio} />
+                </IconButton>
+              </Tooltip>
+            </Typography>
+            <Typography variant="h2">
+              A Full-stack web engineer | ML Enthusiast
+            </Typography>
           </div>
-          <div style={{ ...appTheme.graphql.style }}>
-            {appTheme.graphql.icon}
-          </div>
-          <div style={{ ...appTheme.javascriptColor.style }}>
-            {appTheme.javascriptColor.icon}
-          </div>
-          <div style={{ ...appTheme.dockerColor.style }}>
-            {appTheme.dockerColor.icon}
-          </div>
-        </GridBackground>
-      </div>
-    </ScreenBlock>
-  </section>
-);
+        </div>
+
+        <div className="ResumeHomeBlock-squares">
+          <GridBackground>
+            <div style={{ ...appTheme.java.style }}>
+              {appTheme["java"].icon}
+            </div>
+            <div style={{ ...appTheme.python.style }}>
+              {appTheme.python.icon}
+            </div>
+            <div style={{ ...appTheme.reactColor.style }}>
+              {appTheme.reactColor.icon}
+            </div>
+            <div style={{ ...appTheme.graphql.style }}>
+              {appTheme.graphql.icon}
+            </div>
+            <div style={{ ...appTheme.javascriptColor.style }}>
+              {appTheme.javascriptColor.icon}
+            </div>
+            <div style={{ ...appTheme.dockerColor.style }}>
+              {appTheme.dockerColor.icon}
+            </div>
+          </GridBackground>
+        </div>
+      </ScreenBlock>
+    </section>
+  );
+};
 
 ResumeHomeBlock.propTypes = {
   headline: PropTypes.string.isRequired,

@@ -37,7 +37,7 @@ const TimeLine = () => {
           textAlign="center"
           sx={{ paddingBottom: "60px" }}
         >
-          Here is glimpse of my education, qualifications and previous
+          Here's a glimpse of my education, qualifications and previous
           occupations
         </Typography>
         <VerticalTimeline>
@@ -59,16 +59,12 @@ const TimeLine = () => {
             </Typography>
 
             <Typography variant="subtitle2" gutterBottom="true">
-              GPA: 3.68 / 4
+              GPA: 3.52 / 4
             </Typography>
             <Typography variant="subtitle1" gutterBottom="true">
-              Course Work:
-              <i>
-                {" "}
-                Enterprise Application Development, Machine Learning, Data
-                Mining, Software Systems Design, Enterprise Distributed Systems,
-                Enterprise Software Platforms.
-              </i>
+              Course Work: Enterprise Application Development, Machine Learning,
+              Data Mining, Software Systems Design, Enterprise Distributed
+              Systems, Enterprise Software Platforms, Artificial Intelligence.
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -86,10 +82,8 @@ const TimeLine = () => {
               Bangalore, India
             </Typography>
             <Typography variant="subtitle1">
-              B2B enterprise production planning application development and
-              integration for an Australian based mining company to transform
-              into smart, real-time, well automated manufacturing business
-              stepping into the realm of Industry 4.0.
+              A Production Planning & Scheduling full stack application
+              development (MERN) for an Australian based mining customer.
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -107,8 +101,8 @@ const TimeLine = () => {
               Bangalore, India
             </Typography>
             <Typography variant="subtitle1">
-              B2B production planning application development and integration
-              for a US based agro-food manufacturing company.
+              A Production & Logistics planning full stack application
+              development for agro/food manufacturing company based in US.
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
