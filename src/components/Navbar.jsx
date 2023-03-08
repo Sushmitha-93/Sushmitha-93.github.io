@@ -30,10 +30,11 @@ const theme = createMuiTheme({
   },
 });
 
+// Navigation actions
 const pages = [
   { name: "About", id: "about" },
   { name: "Education", id: "timeline" },
-  { name: "Skills", id: "about" },
+  { name: "Skills", id: "skills" },
   { name: "Career Bio", id: "timeline" },
   { name: "Projects", id: "projects" },
   {

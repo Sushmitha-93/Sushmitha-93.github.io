@@ -61,7 +61,7 @@ const Contact = () => {
                 sx={{
                   color: "#F14336",
                   fontSize: "55px",
-                  marginLeft: "7px",
+                  marginLeft: "5px",
                 }}
               />
             </Grid>
@@ -85,6 +85,7 @@ const Contact = () => {
                     color: "#ff4081",
                     fontSize: "25px",
                     marginTop: "5px",
+                    marginLeft: "5px",
                   }}
                 >
                   <ContentCopyIcon
@@ -139,6 +140,7 @@ const Contact = () => {
                 color="secondary"
                 size="large"
                 variant="filled"
+                sx={{ paddingLeft: "15px", fontSize: "20px" }}
               >
                 Resume
               </Button>

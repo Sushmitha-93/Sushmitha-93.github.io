@@ -8,6 +8,7 @@ import appTheme from "./theme.js";
 import ResumeHomeBlock from "./components/ResumeHomeBlock/ResumeHomeBlock";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact/Contact";
+import Skills from "./components/Skills";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       />
       <Container maxWidth="lg" sx={{ marginTop: 5 }}>
         <About />
+        <Skills />
       </Container>
       <TimeLine />
       <Projects />
