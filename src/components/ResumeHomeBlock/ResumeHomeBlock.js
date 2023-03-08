@@ -35,14 +35,16 @@ export const ResumeHomeBlock = ({ style, shortFullName, headline }) => {
               <Box component="span" sx={{ color: "#FE481D" }}>
                 .
               </Box>
-              <Tooltip title="Soosh-mi-ta">
+              <Tooltip title="Click for pronunciation">
                 <IconButton className="speakerButton">
-                  <HiSpeakerWave size={50} color={"gray"} onClick={playAudio} />
+                  <HiSpeakerWave size={50} onClick={playAudio} />
                 </IconButton>
               </Tooltip>
             </Typography>
             <Typography variant="h2">
-              A Full-stack web engineer | ML Enthusiast
+              A Full-stack Developer{" "}
+              <span style={{ color: "#FE481D", fontWeight: "bold" }}>|</span> ML
+              Enthusiast
             </Typography>
           </div>
         </div>

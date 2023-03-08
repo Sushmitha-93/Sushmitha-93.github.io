@@ -86,6 +86,12 @@
   }
 }
 
+.speakerButton {
+  margin-bottom: 15px !important;
+  color: grey !important;
+}
+
 .speakerButton:hover {
-  background-color: rgba(0, 0, 0, 0.6) !important;
+  background-color: rgba(0, 0, 0, 0.35) !important;
+  color: #fe481d !important;
 }

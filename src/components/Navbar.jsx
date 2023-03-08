@@ -173,6 +173,7 @@ function Navbar() {
                     letterSpacing: 4,
                     fontSize: "14px",
                     mx: { lg: "12px", md: "4px" },
+                    "&:hover": { backgroundColor: "#FE481D" },
                   }}
                 >
                   {page.id !== "resume" ? (
