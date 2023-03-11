@@ -16,6 +16,7 @@ import accentureLogo from "../images/Accenture-logo.png";
 import cognizantLogo from "../images/Cognizant.png";
 import Box from "@mui/material/Box";
 import { Button, Modal } from "@mui/material";
+import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 
 const modalStyle = {
   position: "absolute",
@@ -109,8 +110,9 @@ const TimeLine = () => {
             </Typography>
 
             <Typography variant="subtitle1">
-              A Production Planning & Scheduling full stack application
-              development (MERN) for an Australian based mining customer.
+              Production Planning & Scheduling full-stack application
+              development for Australia based mining customer using Agile
+              methodology.
             </Typography>
             <br />
             <Button variant="outlined" onClick={handleOpen1}>
@@ -130,37 +132,50 @@ const TimeLine = () => {
                   April 2019 - January 2022
                 </Typography>
                 <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                  Production Planning & Scheduling full-stack application
+                  development for Australia based mining customer using Agile
+                  methodology.
+                  <div style={{ paddingTop: "10px" }}>
+                    <i>
+                      <b>Technologies:</b> Node.js, Express.js, React.js, MUI,
+                      MongoDB (Studio3T), Kafka, Data Historian, LDAP, Github,
+                      Jenkins, Jira
+                    </i>
+                  </div>
                   <ul>
                     <li>
-                      Developed critical application features of Production
-                      forecast, Actualization and Lab viewer modules of
-                      Production Planning & Scheduling full-stack application
-                      for an Australian-based mining customer using{" "}
-                      <i>
-                        Node.js, Express.js, React.js, MUI, MongoDB (Studio3T),
-                        Kafka, Data Historian, Github, Jenkins, and Postman.
-                      </i>
-                    </li>
-                    <li>
-                      Involved in complete software development life cycle.
-                      Participated in user story discussions, application
-                      design, sprint plannings, daily stand-ups, code reviews,
-                      and retrospectives in a fast-paced Agile development
+                      Involved in complete software development lifecycle with
+                      constant interaction with Client in an Agile workflow
                       environment.
                     </li>
                     <li>
-                      Performed frequent deployments using Jenkins CI/CD,
-                      GitHub, Docker with automated code movements, build &
-                      test.
+                      Analyzed requirements & participated in user story
+                      discussions, design, scrum meetings, sprint plannings with
+                      Client and functional teams for delivering 2 most complex,
+                      business critical features - Production forecast &
+                      Production Actualization.
                     </li>
                     <li>
-                      Wrote unit and integration tests for features and
-                      integrated them into CI/CD pipeline to ensure quality and
-                      reliability.
+                      Implemented a dashboard using React.js and MUI to view
+                      latest mining samples and manage laboratory data.
                     </li>
                     <li>
-                      Worked on hotfixes, complex production bugs,
-                      documentation, and maintenance. Led and mentored new
+                      Built 20+ RESTful APIs using Express on Node.js
+                      implementing business logic and integrate with SAP ERP and
+                      other apps.
+                    </li>
+                    <li>
+                      Deployed about 40+ code changes related to feature
+                      additions, bug fixes & optimizations using Jenkins CI/CD,
+                      GitHub & Docker
+                    </li>
+                    <li>
+                      Wrote unit and integration tests and integrated them into
+                      CI/CD pipeline to ensure software quality and reliability.
+                    </li>
+                    <li>
+                      Provided regular KT sessions, performed code reviews,
+                      troubleshooting, led and mentored group of junior
                       developers.
                     </li>
                   </ul>
@@ -204,35 +219,34 @@ const TimeLine = () => {
                   Mar 2017 – Apr 2019
                 </Typography>
                 <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                  Production Planning & Logistics full-stack application
+                  development for an agro/food manufacturing company based in
+                  the US.
+                  <div style={{ paddingTop: "10px" }}>
+                    <i>
+                      <b>Technologies:</b> Node.js, Express.js, React.js,
+                      Bootstrap, MS SQL Server, GitLab, Jenkins, Jira
+                    </i>
+                  </div>
                   <ul>
                     <li>
-                      Worked on Production & Transport planning full-stack
-                      application for an agro/food manufacturing company based
-                      in the US using{" "}
-                      <i>
-                        Node.js, React.js, JavaScript, MS SQL Server, XML, XSLT,
-                        XSD, GitLab, Jenkins
-                      </i>{" "}
-                      in an Agile team.
+                      Developed RESTful APIs & screens for Truck Load-out &
+                      Load-in applications in integration with SAP ERP modules,
+                      to automate goods movements and ensure real-time insights
+                      for sales and logistics team, reducing month end reporting
+                      efforts by 30%.
                     </li>
                     <li>
-                      Developed backend & front end of Truck Load-out & Load-in
-                      module, ensuring more real-time insights to sales team.
+                      Implemented 25+ code changes involving feature expansions,
+                      code refactoring, crucial optimizations for smoother
+                      operations and user engagement, using Jenkins CI/CD
+                      pipeline with automated builds and tests across Dev, QA,
+                      Test and Prod envs.
                     </li>
                     <li>
-                      Also implemented & deployed 50+ high-risk code changes
-                      involving feature expansions, code refactoring, crucial
-                      optimizations for smoother operations and user engagement,
-                      using automated Jenkins CI/CD pipeline.
-                    </li>
-                    <li>
-                      Wrote unit and integration tests for features and
-                      integrated them into CI/CD pipeline to ensure quality and
-                      reliability.
-                    </li>
-                    <li>
-                      Worked on complex production bugs and general application
-                      maintenance across 40+ interfaces in 10 Prod servers.
+                      Worked on complex production bugs across 15+ interfaces in
+                      12 Production servers with excellent rapport with business
+                      users.
                     </li>
                   </ul>
                 </Typography>
@@ -277,16 +291,22 @@ const TimeLine = () => {
                 <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                   <ul>
                     <li>
-                      Developed a portfolio and event booking application for a
-                      skydiving start-up company using{" "}
+                      Designed, developed & deployed Portfolio and Event booking
+                      application for a skydiving start-up company using
                       <i>
-                        JavaScript, Bootstrap, HTML, CSS, jQuery, Zoho CRM, and
+                        JavaScript, Bootstrap, HTML, CSS, jQuery, Zoho CRM,
                         Adobe Photoshop.
                       </i>
                     </li>
                     <li>
-                      Designed, developed & deployed the company portfolio
-                      website to provide event details & accept bookings.
+                      <a
+                        href="https://dtsushmitha.wixsite.com/iloveskydiving"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        View Website Prototype
+                      </a>{" "}
+                      <OpenInNewIcon sx={{ fontSize: 15 }} />
                     </li>
                     <li>
                       Performed SEO optimization, Social Media management, and
