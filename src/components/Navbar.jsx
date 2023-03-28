@@ -17,6 +17,7 @@ import { Avatar, Icon, Tooltip } from "@mui/material";
 
 import { Link, animateScroll as rsScroll } from "react-scroll";
 import { createMuiTheme, ThemeProvider } from "@mui/material/styles";
+import profileLinks from "../data/links.json";
 
 const theme = createMuiTheme({
   breakpoints: {
@@ -39,7 +40,7 @@ const pages = [
   { name: "Projects", id: "projects" },
   {
     name: "Resume",
-    href: "https://drive.google.com/file/d/16BG1Bow-LAkpDk_Vn7fckg6lfzW2ekQm/view",
+    href: profileLinks.flowCVResumeLink,
     target: "_blank",
     rel: "noreferrer",
     id: "resume",
