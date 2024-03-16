@@ -75,7 +75,7 @@ const Contact = () => {
                   marginTop: "8px",
                 }}
               >
-                sushmitha.dhummithrilochana@sjsu.edu
+                sushmitha.dt@gmail.com
               </Typography>
             </Grid>
             <Grid item xs={1}>
@@ -133,7 +133,7 @@ const Contact = () => {
             </Grid>
             <Grid item xs={2} sx={{ paddingTop: "17px" }}>
               <Button
-                href="https://drive.google.com/file/d/16BG1Bow-LAkpDk_Vn7fckg6lfzW2ekQm/view"
+                href="https://drive.google.com/file/d/18howMUF6mF15GEIRBy7ix03MGaB6M1TY/view"
                 target="_blank"
                 rel="noreferrer"
                 startIcon={<ContactPageIcon />}

@@ -37,11 +37,14 @@ const TimeLine = () => {
   const handleOpen2 = () => setOpen2(true);
   const [open3, setOpen3] = React.useState(false);
   const handleOpen3 = () => setOpen3(true);
+  const [open4, setOpen4] = React.useState(false);
+  const handleOpen4 = () => setOpen4(true);
 
   const handleClose = () => {
     setOpen1(false);
     setOpen2(false);
     setOpen3(false);
+    setOpen4(false);
   };
 
   return (
@@ -67,10 +70,92 @@ const TimeLine = () => {
           Here's a glimpse of my education, qualifications and previous
           experience
         </Typography>
+
         <VerticalTimeline>
           <VerticalTimelineElement
+            className="vertical-timeline-element--work "
+            date="April 2019 - January 2022
+            (2.75 years)"
+            dateClassName="timeLineDate"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <Typography variant="h6" sx={{ height: "28px" }}>
+              Software Engineering Intern @ Adori Labs
+            </Typography>
+            <Typography variant="subtitle2" gutterBottom="true">
+              Santa Clara, CA, USA
+            </Typography>
+
+            <br />
+            <Button variant="outlined" onClick={handleOpen1}>
+              View More
+            </Button>
+            <Modal
+              open={open1}
+              onClose={handleClose}
+              aria-labelledby="modal-modal-title"
+              aria-describedby="modal-modal-description"
+            >
+              <Box sx={modalStyle}>
+                <Typography id="modal-modal-title" variant="h6" component="h2">
+                  Software Engineering Intern at Adori Labs, Inc
+                </Typography>
+                <Typography variant="subtitle2" gutterBottom="true">
+                  June 2023 - January 2024
+                </Typography>
+                <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                  <div style={{ paddingTop: "10px" }}>
+                    <i>
+                      <b>Technologies:</b> Python, FastAPI, React, JavaScript,
+                      AWS [Lambda, S3, DynamoDB, SageMaker], GCP [GKE, OAuth],
+                      MySQL.
+                    </i>
+                  </div>
+                  <ul>
+                    <li>
+                      Developed a scalable AI Content Authentication app for
+                      audio/video files leveraging Adori's patented watermarking
+                      technology.
+                    </li>
+                    <li>
+                      Implemented a “Serverless, Event-driven Distributed
+                      Microservice” architecture with task splitting & parallel
+                      processing using scalable AWS Lambdas, achieving 70%
+                      faster encoding & handling 2x more larger files
+                      cost-effectively. (Medium blog article)
+                    </li>
+                    <li>
+                      Built dynamic UI using React with file upload/download,
+                      progress bars & notification features ensuring a seamless
+                      user experience.
+                    </li>
+                    <li>
+                      Leveraged open-source Stable Diffusion LLM to implement
+                      scalable APIs using FastAPI and AWS SageMaker to
+                      facilitate image generation for Blog-to-Video service,
+                      reducing reliance on OpenAI's DALL-E service and lowering
+                      costs by 20%.
+                    </li>
+                    <li>
+                      Developed robust user authentication microservice using
+                      Google OAuth and JWT for secure identity management
+                      delivering frictionless user journeys with seamless
+                      sign-up, sign-in, password reset, and email verification
+                      features using FastAPI & React.js.
+                    </li>
+                    <li>
+                      Integrated Stripe payments with dynamic usage limit
+                      upgrades via webhooks, adding monthly revenue by 25%.
+                    </li>
+                  </ul>
+                </Typography>
+              </Box>
+            </Modal>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
             className="vertical-timeline-element--education "
-            date="Jan 2022 - Dec 2023 (expected)"
+            date="Jan 2022 - Dec 2023"
             dateClassName="timeLineDate"
             contentStyle={{ background: "#3F704D", color: "#fff" }}
             contentArrowStyle={{ borderRight: "12px solid  brown" }}
@@ -86,7 +171,7 @@ const TimeLine = () => {
             </Typography>
 
             <Typography variant="subtitle2" gutterBottom="true">
-              GPA: 3.52 / 4
+              GPA: 3.67 / 4
             </Typography>
             <Typography variant="subtitle1" gutterBottom="true">
               Course Work: Enterprise Application Development, Machine Learning,
@@ -109,17 +194,12 @@ const TimeLine = () => {
               Bangalore, India
             </Typography>
 
-            <Typography variant="subtitle1">
-              Production Planning & Scheduling full-stack application
-              development for Australia based mining customer using Agile
-              methodology.
-            </Typography>
             <br />
-            <Button variant="outlined" onClick={handleOpen1}>
+            <Button variant="outlined" onClick={handleOpen2}>
               View More
             </Button>
             <Modal
-              open={open1}
+              open={open2}
               onClose={handleClose}
               aria-labelledby="modal-modal-title"
               aria-describedby="modal-modal-description"
@@ -137,46 +217,47 @@ const TimeLine = () => {
                   methodology.
                   <div style={{ paddingTop: "10px" }}>
                     <i>
-                      <b>Technologies:</b> Node.js, Express.js, React.js, MUI,
-                      MongoDB (Studio3T), Kafka, Data Historian, LDAP, Github,
-                      Jenkins, Jira
+                      <b>Technologies:</b> Node.js, TypeScript, GraphQL,
+                      React.js, Redux, MongoDB, Redis, Apache Kafka, Jenkins,
+                      AWS, Jest, Mocha.
                     </i>
                   </div>
                   <ul>
                     <li>
-                      Involved in complete software development lifecycle with
-                      constant interaction with Client in an Agile workflow
-                      environment.
+                      Played a pivotal role in success of a $7 million project,
+                      migrating a “Sales & Production Planning” application from
+                      a legacy packaged software to a distributed MERN stack
+                      microservice architecture, for BHP – a major Mining client
+                      based in US & Australia.
                     </li>
                     <li>
-                      Analyzed requirements & participated in user story
-                      discussions, design, scrum meetings, sprint plannings with
-                      Client and functional teams for delivering 2 most complex,
-                      business critical features - Production forecast &
-                      Production Actualization.
+                      Engaged in Agile practices with active participation in
+                      story discussions, sprint planning (bi-weekly), daily
+                      stand-ups, backlog grooming.
                     </li>
                     <li>
-                      Implemented a dashboard using React.js and MUI to view
-                      latest mining samples and manage laboratory data.
+                      Designed & deployed 100+ asynchronous REST & GraphQL
+                      endpoints on NodeJS, streamlining business data between
+                      frontend & a diverse back-end ecosystem encompassing
+                      various databases, SAP ERP suite, messaging middlewares,
+                      ensuring minimal latency.
                     </li>
                     <li>
-                      Built 20+ RESTful APIs using Express on Node.js
-                      implementing business logic and integrate with SAP ERP and
-                      other apps.
+                      Implemented interactive & dynamic dashboards using
+                      React.js to query and visualize business data like
+                      production forecasts, inventory levels, sales-to-plan
+                      order ratios etc., facilitating effective quality
+                      inspections and reducing manual reporting by 50%.
                     </li>
                     <li>
-                      Deployed about 40+ code changes related to feature
-                      additions, bug fixes & optimizations using Jenkins CI/CD,
-                      GitHub & Docker
+                      Reviewed code for 10+ developers, enforcing best
+                      practices, design principles, security and rigorous
+                      testing for bug-free releases.
                     </li>
                     <li>
-                      Wrote unit and integration tests and integrated them into
-                      CI/CD pipeline to ensure software quality and reliability.
-                    </li>
-                    <li>
-                      Provided regular KT sessions, performed code reviews,
-                      troubleshooting, led and mentored group of junior
-                      developers.
+                      Wrote robust unit & integration test cases using Jest &
+                      Mocha, automated within CI/CD pipeline ensuring 95%+
+                      feature coverage.
                     </li>
                   </ul>
                 </Typography>
@@ -197,16 +278,13 @@ const TimeLine = () => {
             <Typography variant="subtitle2" gutterBottom="true">
               Bangalore, India
             </Typography>
-            <Typography variant="subtitle1">
-              A Production & Logistics planning full stack application
-              development for agro/food manufacturing company based in US.
-            </Typography>
+
             <br />
-            <Button variant="outlined" onClick={handleOpen2}>
+            <Button variant="outlined" onClick={handleOpen3}>
               View More
             </Button>
             <Modal
-              open={open2}
+              open={open3}
               onClose={handleClose}
               aria-labelledby="modal-modal-title"
               aria-describedby="modal-modal-description"
@@ -224,29 +302,40 @@ const TimeLine = () => {
                   the US.
                   <div style={{ paddingTop: "10px" }}>
                     <i>
-                      <b>Technologies:</b> Node.js, Express.js, React.js,
-                      Bootstrap, MS SQL Server, GitLab, Jenkins, Jira
+                      <b>Technologies:</b> Node.js, JavaScript, Express.js,
+                      React.js, Bootstrap, MySQL, IBM MQ, Git, Jenkins.
                     </i>
                   </div>
                   <ul>
                     <li>
-                      Developed RESTful APIs & screens for Truck Load-out &
-                      Load-in applications in integration with SAP ERP modules,
-                      to automate goods movements and ensure real-time insights
-                      for sales and logistics team, reducing month end reporting
-                      efforts by 30%.
+                      “Production Planning & Logistics” application development
+                      for Cargill – a major Agro/food manufacturing client based
+                      in US.
                     </li>
                     <li>
-                      Implemented 25+ code changes involving feature expansions,
-                      code refactoring, crucial optimizations for smoother
+                      Modernized transport logistics web application with UI
+                      revamp, and real-time insights via event-driven API
+                      integration with SAP (TM,PP modules) & other business
+                      systems, streamlining workflows, reducing 60% of manual
+                      efforts.
+                    </li>
+                    <li>
+                      Implemented 50+ critical code changes involving feature
+                      expansions, code refactoring, optimizations for smoother
                       operations and user engagement, using Jenkins CI/CD
                       pipeline with automated builds and tests across Dev, QA,
-                      Test and Prod envs.
+                      Test and Prod environments.
                     </li>
                     <li>
-                      Worked on complex production bugs across 15+ interfaces in
-                      12 Production servers with excellent rapport with business
-                      users.
+                      Successfully stabilized the application features by
+                      building and integrating robust test scripts which helped
+                      in effectively identifying and addressing 95% critical
+                      issues. Devised shell scripts and cron jobs to automate
+                      various maintenance tasks.
+                    </li>
+                    <li>
+                      Built strong relationships with business stake holders to
+                      effectively resolve production bugs.
                     </li>
                   </ul>
                 </Typography>
@@ -265,18 +354,15 @@ const TimeLine = () => {
               Web Developer Intern @ Blue Falcon Adventures
             </Typography>
             <Typography variant="subtitle2" gutterBottom="true">
-              Bengaluru, India
+              Bangalore, India
             </Typography>
-            <Typography variant="subtitle1">
-              Company portfolio and event booking application development for
-              skydiving start-up.
-            </Typography>
+
             <br />
-            <Button variant="outlined" onClick={handleOpen3}>
+            <Button variant="outlined" onClick={handleOpen4}>
               View More
             </Button>
             <Modal
-              open={open3}
+              open={open4}
               onClose={handleClose}
               aria-labelledby="modal-modal-title"
               aria-describedby="modal-modal-description"
@@ -340,7 +426,7 @@ const TimeLine = () => {
                 Bachelor Degree
               </Typography>
               <Typography variant="subtitle1">
-                JSS Academy of Technical Education, Bangalore, India
+                Visvesvaraya Technological University, Bangalore, India
               </Typography>
             </Link>
           </VerticalTimelineElement>

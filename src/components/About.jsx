@@ -43,41 +43,27 @@ const About = () => {
           >
             <Box>
               <Typography variant="body1" gutterBottom display="block">
-                Hi, I am a Master's student in Software Engineering at San Jose
-                State University, with a focus on Enterprise Software
-                Technologies and Data Science. Through my coursework and
-                studies, I have acquired a strong understanding of advanced
-                algorithms, software engineering principles, machine learning
-                techniques, and enterprise application development.
+                👋 Hi there! I am a recent Software Engineering Graduate from
+                San Jose State University with specialization in Enterprise
+                Software Technologies and cross specialization in Data Science
+                📊🤖📈.
               </Typography>
 
               <Typography variant="body1" gutterBottom>
-                I'm a tech geek at heart, passionate about combining my
-                knowledge of Machine Learning and AI with application
-                development.
+                As a versatile Software Engineer with 'Agile Mindset', I bring
+                over 4 years of experience in Full Stack application development
+                and Microservice architecture. My cross-specialization in Data
+                Science has deepened my understanding of data-driven solutions.
+                I am eager to expand my skill set in ML/AI to build AI-powered
+                solutions that have global impact.
               </Typography>
 
               <Typography variant="body1" gutterBottom>
-                Prior to this, I’ve worked as a full-stack application
-                developer, as part of highly collaborative, dynamic Agile
-                development environment using DevOps practices and the MERN
-                stack (MongoDB, Express, React, and Node.js) to deliver complex,
-                dynamic, business applications. This experience has not only
-                allowed me to gain valuable practical skills in DevOps tools and
-                processes, such as CI/CD pipelines, automated testing, or
-                infrastructure as code but also strengthened my problem solving
-                and interpersonal skills as well.
-              </Typography>
-
-              <Typography variant="body1" gutterBottom>
-                I am actively seeking a summer internship in 2023, that can
-                offer challenging and innovative environment where I can further
-                develop my skills, learn from experienced mentors, and make a
-                meaningful impact.
-              </Typography>
-
-              <Typography variant="body1" gutterBottom>
-                Feel free to contact me regarding any opportunities.{" "}
+                I enjoy the challenge of developing sophisticated software and
+                learning new coding skills. I thrive working in team oriented
+                environments and believe that best solutions come from working
+                with other programmers and developers to meet common goal. I
+                enjoy writing reusable, less buggy codes. 👩‍💻💻
               </Typography>
             </Box>
           </Grid>

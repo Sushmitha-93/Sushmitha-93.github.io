@@ -28,7 +28,7 @@ export default function NameCard() {
           }}
           gutterBottom
         >
-          Sushmitha Thrilochana
+          Sushmita Thrilochana
         </Typography>
         <Typography
           variant="body1"
