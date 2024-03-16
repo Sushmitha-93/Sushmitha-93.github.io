@@ -42,12 +42,14 @@ const About = () => {
             sx={{ marginBottom: "25px", paddingRight: "60px" }}
           >
             <Box>
+              <br />
               <Typography variant="body1" gutterBottom display="block">
                 👋 Hi there! I am a recent Software Engineering Graduate from
                 San Jose State University with specialization in Enterprise
                 Software Technologies and cross specialization in Data Science
                 📊🤖📈.
               </Typography>
+              <br />
 
               <Typography variant="body1" gutterBottom>
                 As a versatile Software Engineer with 'Agile Mindset', I bring
@@ -57,6 +59,7 @@ const About = () => {
                 I am eager to expand my skill set in ML/AI to build AI-powered
                 solutions that have global impact.
               </Typography>
+              <br />
 
               <Typography variant="body1" gutterBottom>
                 I enjoy the challenge of developing sophisticated software and

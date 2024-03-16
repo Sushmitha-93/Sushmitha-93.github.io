@@ -88,7 +88,7 @@ function Navbar() {
                 offset={-70}
                 duration={500}
               >
-                Sushmitha
+                Sushmita
               </Link>
               <Box component="span" sx={{ color: "#FE481D" }}>
                 .
@@ -220,9 +220,7 @@ function Navbar() {
                 <IconButton
                   sx={{ marginRight: 1.5 }}
                   onClick={() =>
-                    navigator.clipboard.writeText(
-                      "sushmitha.dhummithrilochana@sjsu.edu"
-                    )
+                    navigator.clipboard.writeText("dtsushmitha@gmail.com")
                   }
                 >
                   <Avatar src={gmailIcon} sx={{ borderRadius: "2px" }} />

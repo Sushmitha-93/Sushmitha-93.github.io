@@ -31,7 +31,7 @@ export const ResumeHomeBlock = ({ style, shortFullName, headline }) => {
               Hi there! I am
             </Typography>
             <Typography variant="h1">
-              Sushmitha Thrilochana
+              Sushmita Thrilochana
               <Box component="span" sx={{ color: "#FE481D" }}>
                 .
               </Box>
