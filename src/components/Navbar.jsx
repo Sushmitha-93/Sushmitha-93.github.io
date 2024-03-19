@@ -40,7 +40,7 @@ const pages = [
   { name: "Projects", id: "projects" },
   {
     name: "Resume",
-    href: profileLinks.flowCVResumeLink,
+    href: profileLinks.googleDriveResumeLink,
     target: "_blank",
     rel: "noreferrer",
     id: "resume",

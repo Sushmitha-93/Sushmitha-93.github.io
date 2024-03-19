@@ -74,8 +74,7 @@ const TimeLine = () => {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work "
-            date="April 2019 - January 2022
-            (2.75 years)"
+            date="June 2023 - January 2024"
             dateClassName="timeLineDate"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
@@ -172,11 +171,6 @@ const TimeLine = () => {
 
             <Typography variant="subtitle2" gutterBottom="true">
               GPA: 3.67 / 4
-            </Typography>
-            <Typography variant="subtitle1" gutterBottom="true">
-              Course Work: Enterprise Application Development, Machine Learning,
-              Data Mining, Software Systems Design, Enterprise Distributed
-              Systems, Enterprise Software Platforms, Artificial Intelligence.
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement

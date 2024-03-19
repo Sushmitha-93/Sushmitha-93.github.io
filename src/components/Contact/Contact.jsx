@@ -9,6 +9,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import ContactPageIcon from "@mui/icons-material/ContactPage";
+import profileLinks from "../../data/links.json";
 
 import "./Contact.css";
 
@@ -133,7 +134,7 @@ const Contact = () => {
             </Grid>
             <Grid item xs={2} sx={{ paddingTop: "17px" }}>
               <Button
-                href="https://drive.google.com/file/d/18howMUF6mF15GEIRBy7ix03MGaB6M1TY/view"
+                href={profileLinks.googleDriveResumeLink}
                 target="_blank"
                 rel="noreferrer"
                 startIcon={<ContactPageIcon />}

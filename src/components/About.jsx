@@ -17,6 +17,10 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
+const aboutStyle = {
+  fontSize: "20px",
+};
+
 const About = () => {
   return (
     <section id="about">
@@ -43,17 +47,21 @@ const About = () => {
           >
             <Box>
               <br />
-              <Typography variant="body1" gutterBottom display="block">
+              <Typography
+                variant="body1"
+                gutterBottom
+                display="block"
+                sx={aboutStyle}
+              >
                 👋 Hi there! I am a recent Software Engineering Graduate from
                 San Jose State University with specialization in Enterprise
-                Software Technologies and cross specialization in Data Science
-                📊🤖📈.
+                Software Technologies.
               </Typography>
               <br />
 
-              <Typography variant="body1" gutterBottom>
+              <Typography variant="body1" sx={aboutStyle} gutterBottom>
                 As a versatile Software Engineer with 'Agile Mindset', I bring
-                over 4 years of experience in Full Stack application development
+                over 5 years of experience in Full Stack application development
                 and Microservice architecture. My cross-specialization in Data
                 Science has deepened my understanding of data-driven solutions.
                 I am eager to expand my skill set in ML/AI to build AI-powered
@@ -61,7 +69,7 @@ const About = () => {
               </Typography>
               <br />
 
-              <Typography variant="body1" gutterBottom>
+              <Typography variant="body1" sx={aboutStyle} gutterBottom>
                 I enjoy the challenge of developing sophisticated software and
                 learning new coding skills. I thrive working in team oriented
                 environments and believe that best solutions come from working
